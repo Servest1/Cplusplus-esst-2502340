@@ -21,7 +21,7 @@ int main()
 
     // Does not work because x in this function is never passed
     squareMeUpNoSense(val);
-    std::cout << val << std::endl;
+    std::cout << val << "<-- Does not work because x in this function is never passed" << std::endl;
 
     // With pointers (like you know it from C)
     squareMeUpPtr(&val);

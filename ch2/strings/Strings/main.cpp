@@ -4,6 +4,7 @@
 int main()
 {
     std::string myText;
+    std::string myText2 = "Hell";
 
     std::cout << myText; // Leerer String
 
@@ -22,5 +23,7 @@ int main()
     myText.insert(wPos, " ");
     std::cout << myText << std::endl;
 
+    int ergText = myText.compare(myText);
+    std::cout << ergText<< std::endl;
     return 0;
 }

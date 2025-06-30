@@ -5,7 +5,7 @@ struct MyVector {
   int *mValues = nullptr;
 };
 
-int main()
+int main() 
 {
     auto pMyVec = new MyVector;
 
